@@ -5,3 +5,10 @@
     "start": "node server.js"
   }
 }
+{
+  "name": "discord-tracker",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
