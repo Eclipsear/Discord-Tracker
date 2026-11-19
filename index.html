@@ -45,5 +45,15 @@
         // This is where we will put your Vercel URL later
         const TRACKER_URL = 'https://your-repl-name.vercel.app/api/tracker'; 
     </script>
+
+    <script>
+      // This script sends the visitor's info to your tracker endpoint
+      // It uses a small fetch to /api/tracker
+      fetch('/api/tracker')
+        .then(response => {
+          console.log("Tracker hit successfully");
+        })
+        .catch(error => console.error("Tracker error:", error));
+    </script>
 </body>
 </html>
